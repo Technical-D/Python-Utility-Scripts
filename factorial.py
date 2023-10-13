@@ -1,13 +1,16 @@
-n = int(input())
-f = 1
+n = int(input()) # Give the number
 
-for i in range(1, n+1):
-    f*=i
+def factorial(n):
+    f = 1
 
-f = str(f)
-res = 0
-for i in range(len(f)):
-    res+=int(f[i])
+    for i in range(1, n+1): # Looping from 1 to desired num
+        f*=i # Multiplying num to f 
 
-print(res)
+    return f
+
+print(f'Factorial of {n} is {factorial(n)}.')
+
+
+
+
 
