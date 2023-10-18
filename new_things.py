@@ -63,3 +63,36 @@ def adding_num(n):
         return n + adding_num(n - 1)
 s = adding_num(5)
 print(s)
+
+# Dictionary comprehension
+
+name = ['Dheeraj', 'Jayhind', 'Shubham', 'Anjali']
+age = [20, 20, 21, 19]
+
+names = {name:age for name, age in zip(name, age)}
+lengths = {name:len(name) for name in name}
+print(names)
+print(lengths)
+
+# Match case (similar to switch case)
+def do_this():
+    print('I am doing this!!')
+
+def do_that():
+    print("I am doing that!!")
+
+match input('Enter this/that: '):
+    case 'this':
+        do_this()
+    case 'that':
+        do_that()
+    case _:
+        print("Invalid!!")
+
+# Reversing string
+string = 'Hello'
+res = ''
+for i in range(len(string)-1, -1, -1):
+    res+=string[i]
+
+print(res)
