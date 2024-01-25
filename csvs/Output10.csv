@@ -1,0 +1,13 @@
+snippet/article,entity_mapped,entity_type,Relation,Subject,Object
+"Alexander Graham Bell (1847–1922) is credited with inventing the telephone, revolutionizing communication technology.
+
+Bell's family background may have played a role in his interest in speech and communication. His father, Alexander Melville Bell, was a renowned speech teacher and his mother, Eliza Grace Symonds Bell, was deaf, which inspired Alexander to explore methods of teaching speech to the deaf. His family's work in speech education likely influenced his own groundbreaking research.
+
+Alexander Graham Bell had four children with his wife Mabel Gardiner Hubbard: Elsie, Marian, Daisy, and Edward. Some of his descendants went on to make contributions in fields related to communication and technology.",PERSON,OBJECT,invented,Alexander Graham Bell,the telephone
+,PERSON,FIELD,revolutionized,Alexander Graham Bell,communication technology
+,PERSON,PROFESSION,was,Alexander Melville Bell,speech teacher
+,PERSON,CONDITION,was,Eliza Grace Symonds Bell,deaf
+,PERSON,FIELD,explored,Alexander Graham Bell,methods of teaching speech to the deaf
+,PERSON,PERSON,married,Alexander Graham Bell,Mabel Gardiner Hubbard
+,PERSON,PERSON,had children,Alexander Graham Bell,"Elsie, Marian, Daisy, and Edward"
+,PERSON,FIELD,made contributions in,descendants of Alexander Graham Bell,communication and technology

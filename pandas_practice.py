@@ -25,7 +25,41 @@ fillna(), drop(), rename(): Handle missing values, drop columns, or rename colum
 apply(): Apply a function to each element, row, or column of the DataFrame.
 """
 
-df = pd.read_csv('song.csv')
-print(df.loc[2, 'Released']) # .loc[] take first input num and second column name
-print(df.iloc[2, 5]) # .iloc[] only take integer as row number or column number
-print(df[['Artist', 'Album']])
+# df = pd.read_csv('song.csv')
+# print(df.loc[2, 'Released']) # .loc[] take first input num and second column name
+# print(df.iloc[2, 5]) # .iloc[] only take integer as row number or column number
+# print(df[['Artist', 'Album']])
+
+# xl = pd.read_excel(r"C:\Users\DELL\Downloads\input_txt.xlsx")
+
+# text = xl['text'].tolist()
+# print(text)
+# print(len(text))
+
+csv_file = [f'csvs/Output{f}.csv' for f in range(0, 11)]
+
+concatenated_df = pd.DataFrame()
+
+excel_writer = pd.ExcelWriter('output.xlsx', engine='openpyxl')
+excel_writer.book.create_sheet('Sheet1', 0)
+sheet = excel_writer.sheets['Sheet1']
+
+row_offset = 0
+
+# Iterate through each CSV file
+for idx, file_path in enumerate(csv_file, 1):
+    # Read the CSV into a DataFrame
+    df = pd.read_csv(file_path)
+    
+    # Concatenate the DataFrame vertically
+    concatenated_df = pd.concat([concatenated_df, df], ignore_index=True)
+    
+
+    # Write the DataFrame to the Excel sheet
+    df.to_excel(excel_writer, sheet_name='Sheet1', startrow=row_offset, index=False, header=True)
+
+    # Add two blank rows after each table
+    row_offset += df.shape[0] + 2
+
+# Save the Excel file
+excel_writer._save()

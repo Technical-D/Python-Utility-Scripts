@@ -1,0 +1,11 @@
+snippet/article,entity_mapped,entity_type,Relation,Subject,Object
+"Ada Lovelace (1815–1852) is often regarded as the world's first computer programmer, having written the first algorithm intended to be processed by a machine.
+
+Lovelace's family background was marked by intellectual pursuits. Her father, Lord Byron, was a renowned poet, and her mother, Lady Anne Isabella Milbanke, was a mathematician and advocate for Ada's education in science and mathematics. While there is no direct evidence of exceptional intellectual abilities in her parents, their influence likely contributed to Ada's interest in mathematics.
+
+Ada Lovelace had three children with her husband William King, Earl of Lovelace: Byron, Anne, and Ralph Gordon. Despite their parentage, there are no historical records suggesting that Lovelace's children pursued careers in mathematics or science.",PERSON,TITLE,is often regarded as,Ada Lovelace,the world's first computer programmer
+,PERSON,OBJECT,wrote,Ada Lovelace,the first algorithm intended to be processed by a machine
+,PERSON,PERSON,daughter of,Ada Lovelace,Lord Byron
+,PERSON,PERSON,daughter of,Ada Lovelace,Lady Anne Isabella Milbanke
+,PERSON,PERSON,wife of,Ada Lovelace,"William King, Earl of Lovelace"
+,PERSON,PERSON,mother of,Ada Lovelace,"Byron, Anne, and Ralph Gordon"

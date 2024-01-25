@@ -1,0 +1,14 @@
+snippet/article,entity_mapped,entity_type,Relation,Subject,Object
+"Jane Austen (1775–1817) is celebrated as one of the greatest novelists in English literature, known for her keen observations of society and witty narrative style.
+
+Austen's family background provided a supportive environment for her literary pursuits. Her father, George Austen, was a clergyman, and her mother, Cassandra Leigh Austen, came from a family of landed gentry. The Austen family valued education and creativity, which likely influenced Jane's development as a writer.
+
+Jane Austen had six brothers and one sister, none of whom achieved the same level of literary renown as their sister. However, they were a close-knit family and some of her brothers pursued careers in the clergy and the military.",PERSON,TITLE,is celebrated as,Jane Austen,one of the greatest novelists in English literature
+,PERSON,DATE,lived,Jane Austen,1775–1817
+,PERSON,PERSON,daughter of,Jane Austen,George Austen
+,PERSON,OCCUPATION,was,George Austen,a clergyman
+,PERSON,PERSON,daughter of,Jane Austen,Cassandra Leigh Austen
+,PERSON,FAMILY,came from,Cassandra Leigh Austen,a family of landed gentry
+,FAMILY,CONCEPT,valued,The Austen family,education and creativity
+,PERSON,FAMILY,had,Jane Austen,six brothers and one sister
+,FAMILY,OCCUPATION,pursued careers in,her brothers,the clergy and the military

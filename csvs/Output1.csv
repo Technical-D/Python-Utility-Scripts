@@ -1,0 +1,12 @@
+snippet/article,entity_mapped,entity_type,Relation,Subject,Object
+"Marie Curie (1867–1934) revolutionized the fields of physics and chemistry, becoming the first woman to win a Nobel Prize and the only person to win Nobel Prizes in two different scientific fields.
+
+It is often speculated that Curie's remarkable scientific aptitude may have been influenced by her family. Her parents, Bronisława and Władysław Skłodowski, were both educators and instilled a love for learning in their children. While there is no direct evidence of extraordinary intellectual abilities in her parents, their commitment to education likely played a role in Marie's early development.
+
+Marie Curie had two daughters with her husband Pierre Curie: Irène and Ève. Both Irène and Ève went on to make significant contributions to science and humanitarian causes.",PERSON,AWARD,first woman to win,Marie Curie,Nobel Prize
+,PERSON,AWARD,only person to win in two different scientific fields,Marie Curie,Nobel Prizes
+,PERSON,PERSON,daughter of,Marie Curie,Bronisława and Władysław Skłodowski
+,PERSON,CONCEPT,instilled a love for,Bronisława and Władysław Skłodowski,education
+,PERSON,PERSON,wife of,Marie Curie,Pierre Curie
+,PERSON,PERSON,mother of,Marie Curie,Irène and Ève
+,PERSON,CONCEPT,made significant contributions to,Irène and Ève,science and humanitarian causes

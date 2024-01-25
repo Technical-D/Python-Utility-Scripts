@@ -1,0 +1,12 @@
+snippet/article,entity_mapped,entity_type,Relation,Subject,Object
+"Alan Turing (1912–1954) was a pioneering mathematician, logician, and computer scientist, known for his contributions to the development of the modern computer.
+
+Turing's family background provided a supportive environment for his intellectual pursuits. His father, Julius Mathison Turing, was a member of the Indian Civil Service and his mother, Ethel Sara Turing, had a keen interest in mathematics. While there is no direct evidence of extraordinary intellectual abilities in his parents, their encouragement likely played a role in Alan's early development as a mathematician.
+
+Alan Turing never married and did not have any children.",PERSON,DATE,lifespan,Alan Turing,1912–1954
+,PERSON,PROFESSION,was,Alan Turing,"mathematician, logician, and computer scientist"
+,PERSON,OBJECT,contributed to the development of,Alan Turing,the modern computer
+,PERSON,ORGANIZATION,was a member of,Julius Mathison Turing,the Indian Civil Service
+,PERSON,SUBJECT,had a keen interest in,Ethel Sara Turing,mathematics
+,PERSON,,never married,Alan Turing,
+,PERSON,,did not have any children,Alan Turing,

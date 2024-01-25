@@ -1,0 +1,14 @@
+snippet/article,entity_mapped,entity_type,Relation,Subject,Object
+"Emily Dickinson (1830–1886) is celebrated as one of the most important American poets, known for her innovative style and exploration of themes like nature, death, and the self.
+
+Dickinson's family background was marked by a strong emphasis on education and literature. Her father, Edward Dickinson, was a lawyer and politician, and her mother, Emily Norcross Dickinson, was an avid reader. The Dickinson household valued intellectual pursuits, which likely influenced Emily's own passion for poetry.
+
+Emily Dickinson had an older brother, Austin, and a younger sister, Lavinia. While Austin had an interest in science and served as a lawyer, neither of her siblings achieved the same level of literary prominence.",PERSON,DATE,lived,Emily Dickinson,1830–1886
+,PERSON,PROFESSION,is celebrated as one of the most important,Emily Dickinson,American poets
+,PERSON,THEME,explored themes,Emily Dickinson,"nature, death, and the self"
+,PERSON,PROFESSION,was,Edward Dickinson,lawyer and politician
+,PERSON,DESCRIPTION,was,Emily Norcross Dickinson,avid reader
+,PERSON,INTEREST,had passion for,Emily Dickinson,poetry
+,PERSON,INTEREST,had interest in,Austin,science
+,PERSON,PROFESSION,served as,Austin,lawyer
+,PERSON,PERSON,had siblings,Emily Dickinson,"Austin, Lavinia"

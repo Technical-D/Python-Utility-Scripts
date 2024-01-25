@@ -1,0 +1,11 @@
+snippet/article,entity_mapped,entity_type,Relation,Subject,Object
+"Charles Darwin (1809–1882) is celebrated for his groundbreaking theory of evolution by natural selection, which revolutionized the field of biology.
+
+Darwin's family background provided a rich environment for intellectual exploration. His father, Dr. Robert Darwin, was a physician, and his grandfather, Erasmus Darwin, was a noted physician, naturalist, and poet. While there is no direct evidence of extraordinary intellectual abilities in his parents, the family's interest in medicine and natural history likely influenced Charles's own pursuits.
+
+Charles Darwin had ten children with his wife Emma Wedgwood. Several of his children went on to achieve notable accomplishments in various fields, including medicine, botany, and literature.",PERSON,THEORY,celebrated for,Charles Darwin,theory of evolution by natural selection
+,PERSON,FIELD,revolutionized,Charles Darwin,field of biology
+,PERSON,PROFESSION,was a,Dr. Robert Darwin,physician
+,PERSON,PROFESSION,was a,Erasmus Darwin,"physician, naturalist, and poet"
+,PERSON,PERSON,had ten children with,Charles Darwin,Emma Wedgwood
+,PERSON,FIELD,achieved notable accomplishments in,Charles Darwin's children,"medicine, botany, and literature"

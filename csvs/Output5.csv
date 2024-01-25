@@ -1,0 +1,13 @@
+snippet/article,entity_mapped,entity_type,Relation,Subject,Object
+"Wolfgang Amadeus Mozart (1756–1791) is considered one of the greatest composers in history, known for his prodigious musical talent from a very young age.
+
+Mozart's family background was steeped in music. His father, Leopold Mozart, was a distinguished composer and musician in his own right, and his mother, Anna Maria Mozart, came from a family of musical talent. Leopold's own musical expertise likely played a pivotal role in nurturing Wolfgang's early musical development.
+
+Wolfgang Amadeus Mozart had six children with his wife Constanze Weber. While none of his children achieved the same level of musical prominence as their father, some pursued careers in music and the arts.",PERSON,TITLE,is considered,Wolfgang Amadeus Mozart,one of the greatest composers in history
+,PERSON,DATE,lived,Wolfgang Amadeus Mozart,1756–1791
+,PERSON,ATTRIBUTE,known for,Wolfgang Amadeus Mozart,prodigious musical talent
+,PERSON,PERSON,son of,Wolfgang Amadeus Mozart,Leopold Mozart
+,PERSON,PERSON,son of,Wolfgang Amadeus Mozart,Anna Maria Mozart
+,PERSON,TITLE,was,Leopold Mozart,distinguished composer and musician
+,PERSON,PERSON,had six children with,Wolfgang Amadeus Mozart,Constanze Weber
+,PERSON,FIELD,children pursued careers in,Wolfgang Amadeus Mozart,music and the arts

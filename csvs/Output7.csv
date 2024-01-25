@@ -1,0 +1,12 @@
+snippet/article,entity_mapped,entity_type,Relation,Subject,Object
+"Pablo Picasso (1881–1973) is hailed as one of the most influential artists of the 20th century, known for co-founding the Cubist movement and his innovative approach to art.
+
+Picasso's family background was marked by artistic inclinations. His father, José Ruiz y Blasco, was an artist and art professor, and his mother, María Picasso y López, came from a family of artisans. While there is no direct evidence of extraordinary artistic abilities in his parents, their influence likely contributed to Pablo's early artistic pursuits.
+
+Pablo Picasso had four children with three different partners: Paulo, Maya, Claude, and Paloma. Some of his children went on to have careers in the arts, including painting, photography, and writing.",PERSON,ORGANIZATION,co-founded,Pablo Picasso,the Cubist movement
+,PERSON,TITLE,is hailed as,Pablo Picasso,the most influential artists of the 20th century
+,PERSON,CONCEPT,had an innovative approach to,Pablo Picasso,art
+,PERSON,TITLE,was,José Ruiz y Blasco,artist and art professor
+,PERSON,FAMILY,came from,María Picasso y López,a family of artisans
+,PERSON,PERSON,had children,Pablo Picasso,"Paulo, Maya, Claude, and Paloma"
+,PERSON,FIELD,had careers in,Pablo Picasso's children,the arts

@@ -96,3 +96,9 @@ for i in range(len(string)-1, -1, -1):
     res+=string[i]
 
 print(res)
+
+# Use of enumerate
+seq = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+for idx, s in enumerate(seq):
+    idx +=1
+    print(f'{idx}: {s}')

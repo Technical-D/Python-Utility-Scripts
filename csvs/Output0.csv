@@ -1,0 +1,16 @@
+snippet/article,entity_mapped,entity_type,Relation,Subject,Object
+"Albert Einstein (1879–1955) is celebrated as one of the most brilliant physicists in history, known for his theory of relativity and contributions to quantum mechanics.
+
+Einstein's family background may have played a role in shaping his intellectual curiosity. His father, Hermann Einstein, ran an electrochemical factory, and his mother, Pauline Koch, was a talented pianist. While there is no direct evidence of exceptional intellectual abilities in his parents, the household likely fostered an environment that encouraged exploration and creativity.
+
+Albert Einstein had two sons with his first wife Mileva Marić: Hans Albert and Eduard. While both sons pursued different paths, Hans Albert became a notable engineer, and Eduard, despite facing mental health challenges, demonstrated an interest in the arts.",PERSON,DATE,lifespan,Albert Einstein,1879–1955
+,PERSON,PROFESSION,is one of the most brilliant,Albert Einstein,physicists
+,PERSON,THEORY,known for,Albert Einstein,theory of relativity
+,PERSON,FIELD,contributed to,Albert Einstein,quantum mechanics
+,PERSON,ORGANIZATION,ran,Hermann Einstein,an electrochemical factory
+,PERSON,PROFESSION,was a talented,Pauline Koch,pianist
+,PERSON,PERSON,first wife,Albert Einstein,Mileva Marić
+,PERSON,PERSON,had son,Albert Einstein,Hans Albert
+,PERSON,PERSON,had son,Albert Einstein,Eduard
+,PERSON,PROFESSION,became,Hans Albert,engineer
+,PERSON,FIELD,demonstrated an interest in,Eduard,the arts
